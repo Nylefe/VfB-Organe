@@ -1,0 +1,55 @@
+Codebuch: 
+Netzwerkanalyse der Mitglieder des Vorstands und des Aufsichtsrats des VfB. Wer ist mit wem vernetzt (25 Knoten)
+
+# EDGE-Attribute
+
+**id**
+(eindeutige Codierung des Knoten)
+Jede ID entspricht einer Abkürzung eines Mitglieds im Aufsichtsrat oder Vorstand des VfB Stuttgart oder einer Person außerhalb des Unternehmens bzw. einer Organisation oder eines Vereins, die unmittelbar mit den VfB-Organen in Verbindung stehen.
+
+**year**
+Beginn (Jahr) einer Mitgliedschaft, Arbeitsverhältnis oder Amtsantritt (Ehrenamt) der VfB-Organe
+
+**relation** 
+(Beziehungsart zwischen den Personen/der Organisation/der Unternehmen/ den Vereinen der VfB-Organe)
+
+5 = Gründer des Vereins/ der Organisation
+4 = Beziehung aufgrund der Mitgliedschaft
+3 = Andauernde Beziehung (Freundschaft)
+2 = Geschäftsbeziehung 
+1 = Beschäftigungsverhältnis/Zusammenarbeit/Mitarbeiter
+
+
+# NODE-Attribute
+
+**id**
+Identische ID wie in der edgelist zur Identifikation der Knoten. 
+
+**name**
+Den vollen Namen der Person/der Organisation.
+
+**sex**
+(Geschlecht der beteiligten Person)
+1 = weiblich
+2 = männlich
+3 = divers
+
+**age**
+(Aktuelles Alter der involvierten Person)
+Angabe als Zahl
+
+**type**
+1 = Person
+2 = Organisation, Verein, Unternehmen
+**position**
+(Position im Aufsichtsrat oder Vorstand der VfB-Organe bzw. die Position des in Verbindung stehenden Unternehmens/der Organisation)
+1 = Vorsitzender
+2 = stellvertretender Vorsitzender
+3 = Beisitzer
+
+**affiliation**
+1 = Aufsichtsrat
+2 = Vorstand
+
+**source**
+Quellenangabe
